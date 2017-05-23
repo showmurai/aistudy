@@ -24,5 +24,5 @@ RUN pyenv global $ANACONDA_VERSION
 RUN pyenv rehash
 ADD info.py /tmp/info.py
 
-ENTRYPOINT ["python"]
-CMD ["info.py"]
+# ENTRYPOINT ["python"]
+# CMD ["info.py"]
