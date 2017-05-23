@@ -8,5 +8,15 @@ This docker is learning AI group's docker image file.
 You can build docker container the command.
 
 ```
-docker build -f Dockerfile -t showmurai/aistudy .
+$ git clone git@github.com:showmurai/aistudy.git
+$ cd aistudy/docker
+$ docker build -f Dockerfile -t aistudy .
+$ docer run -it aistudy /bin/bash
+```
+
+Or you can download from Docker Hub like this.
+
+```
+$ docker pull showmurai/aistudy
+$ docker run -it aistudy /bin/bash
 ```
